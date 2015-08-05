@@ -25,4 +25,4 @@ print europe[0].values()[1] #this is only for the values inside the dictionary
 
 print europe[0]["population"]/europe[1]["population"] #better to do it this way rather than indirect referencing because the number would be different. 
 
-#similarly, we can create lists within lists and dictionaries within dictionaries.
+#similarly, we can create lists within lists and dictionaries within dictionaries...
