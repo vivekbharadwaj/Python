@@ -1,0 +1,34 @@
+Homework 0 notes
+1. python help is not as good as R help. Accessing help is not intuitive enough. For example, max function for an array is gotten only by x.max? or x.max?? where x has already been defined. you can't just type max? or max??
+2. input and output is done using " % " function for precision and width. not clearly understood this yet. need to find out. the following code snippet doesn't seem to work
+y="foobar"
+print y
+print "%5.2f",y
+3. import BeautifulSoup imports the parsing library...similarly for other libraries
+4. %matplotlib inline  - this prepares ipython for working with matplotlib
+5.import matplotlib.pyplot as plt actually imports a python plot into the variable plt.
+6. the plot function in matplotlib is similar to the base graphics function in R in that both libraries are interpreter format and different layers can be added to the graphics to make it more and more complex.
+7. array operations - 
+		print "Make a 3 row x 4 column array of random numbers"
+		x = np.random.random((3, 4))
+		print x
+		print
+
+		print "Add 1 to every element"
+		x = x + 1
+		print x
+		print
+
+		print "Get the element at row 1, column 2"
+		print x[1, 2]
+		print
+
+		# The colon syntax is called "slicing" the array. 
+		print "Get the first row"
+		print x[0, :]
+		print
+
+		print "Get every 2nd column of the first row"
+		print x[0, ::2]
+		print
+8. print x.max(axis=0) this prints max across every column, while axis=1 prints max across every row.
